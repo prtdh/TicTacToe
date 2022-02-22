@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TIC TAC TOE</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="section">
+
+        <div class="container game-heading">TIC TAC TOE
+        </div>
+        <audio id="click" src="click.wav"></audio>
+        <audio  id="endsound" src="endsound.wav"></audio>
+            <div class="grid-container " id="grid-container">
+                <div data-cell="0" class="cell"></div>
+                <div data-cell="1" class="cell">  </div>
+                <div data-cell="2" class="cell"></div>
+                <div data-cell="3" class="cell"></div>
+                <div data-cell="4" class="cell"></div>
+                <div data-cell="5" class="cell"></div>
+                <div data-cell="6" class="cell"></div>
+                <div data-cell="7" class="cell"></div>
+                <div data-cell="8" class="cell"></div>
+            </div>
+            <div class="scores" id="scores">
+                <div data-winning-message-text></div>
+                <button class="game--restart" id="restart">Restart Game</button>
+
+            </div>
+            
+    </div>
+        
+
+   
+    <script src="javascript.js"></script>
+</body>
+</html>
